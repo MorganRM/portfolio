@@ -1,0 +1,40 @@
+With the following settings:
+Number of inputs = 2
+Number of hidden layers = 1
+Number of nodes in a hidden layer = 3
+Number of outputs = 2
+
+NOTE: our ANN supports any combination of hidden layers and nodes in the hidden layers, but is inconsistent with multiple outputs.
+
+Using the following training data: 
+0,0,0
+0,1,1
+1,0,1
+1,1,0
+
+Our ANN outputted:
+Input Layer: 
+    [0.0, 0.0]
+
+Hidden Layer: 
+         Weights: [5.857061592575234, 5.659883934006406]
+
+         Weights: [-6.925923948835078, 6.078407710529435]
+
+         Weights: [5.450185762814068, -6.611706042028125]
+
+
+Output Layer: 
+    [Weights: [1.282296962611635, 6.506530295679864, 6.555390165821488]]
+
+[0.0, 0.0]
+[0.029832890275230752]
+
+[0.0, 1.0]
+[0.9579639144429373]
+
+[1.0, 0.0]
+[0.9572931186706489]
+
+[1.0, 1.0]
+[0.059175974016189084]

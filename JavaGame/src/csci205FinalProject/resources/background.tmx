@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="240" height="25" tilewidth="16" tileheight="16" nextobjectid="32">
+ <tileset firstgid="1" name="tileset_gutter" tilewidth="16" tileheight="16" spacing="2" margin="1" tilecount="924" columns="33">
+  <image source="../../../../../Downloads/tileset_gutter.png" width="594" height="504"/>
+ </tileset>
+ <layer name="Background" width="240" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzt2UFOwzAQheEk50GiSByk4hyoF2Iz15jTAOfohqI2m4iCozieN/i39G2qShmP/dyo9mkYXMzbQnQ92eqLptQfpVp6qPvb+8XHzef979lCsz4U1he2ZtFrX6M/teawx1q16O9ee0yIeUF+M/WhVq2Z5pxxDsq1JWJekF8AkszJLzp3GvN4ujhPV77I7+2z4VGgTqCV5ymPw3g/v/N5dEg2J2CLhzGPl1/yO39+bFzTSaAv6Ffpe3bLO4nCZ/34+wv06K/MtPzPvOb9b3TfoCdyzfZ6ttKdeyFzgfxG3gVmODsUa4xcM+W748a1ma/Mr+Je2lKT8l7IVCNCmK/Mr+JeUqxJkeLZi03MBd6f0Qbn3L9jTn6BrMzJL5CVOfkFsjInv0BW5uQXAJDU63gVXQeA9eb8kmEgH/ILAOswGDVG9D7uFYNRY3wB8Ps8Tg==
+  </data>
+ </layer>
+ <layer name="Graphics" width="240" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztm01OwzAQhZ32FMCOLUtUKgF3oPQEXKBsKSdgx65wjO6Aa7BCHINdlziikYJlx7HjiWfc90lPzo+azLzJJKqcKAUkcjRV6ljrZEp3jk2l1GtFd/whjJG/FGa6Rhdac2N0bZ879s0cy+Y5bOs+qOq1mSj1ovU6SXtcX7xD87nUv7vSuia6fuvefd6rq4dz9RF1/pJY6PpstZbG6Nq+dOxbOJbNc5jra61HTx9T1etN9+271kfi/vXFy/n6a/eur4c553EINL2zbY0PlX17M9r2rR3L5rHM9Zqt5XkN8jHd63zyp2Yd8GPV6qH26Npej7Z9q479vvVmPEPvsgD9Kwdbf3aNvm3mcsi6uR3kAf0rBw79CwCIA/0LAADD6DMPU9Kcp8R8ucUzJpxzHyu2rvP0mYdJPVeTsybU+VLkFhIP5+s9hhTXHpUnY81hcpsr5RZPSnLnlvv8JlS986X/C3/3/D/c5Qn1/S4kzhIIzbe0542J9PpT3E9qT5q5iaHeUN7vQuOkfneSmpi6cHve2Ij1PeV1WgptTzh7ExOn5HcnpdQlhhjfS/YjFpsnHL2REmcqDi1fH/DDzk7n/unQjpEvUuJMxaHl66NEP1J8E3qr3Pe1m4Hx9aFvDrnjjCW2RlLzpaI0P/p+E+qj7cvpXmP5EpJDzjhjGVIjiflSUpIfId+E+mj78lP9f0ee0pfQHHLFGcvQGknLl5qS/GjiTvFNSi5fQnOQVr+hNZKWLzUl+YH+5V8/9G9aSvID/cu/fujftEjw476CIEiqnpS6gyAIgiBoXP0CYxIAug==
+  </data>
+ </layer>
+ <objectgroup name="Ground" visible="0">
+  <object id="5" x="0" y="192" width="1343" height="16"/>
+  <object id="7" x="192" y="145">
+   <polyline points="0,0 0,44 -95,45 -96,-2 -49,-49 0,-1 1,1"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Buildings" visible="0">
+  <object id="9" x="336" y="190">
+   <polyline points="0,0 0,-112 64,-175 127,-112 128,-1 128,2 2,2 -2,-1"/>
+  </object>
+  <object id="10" gid="471" x="352" y="64" width="16" height="16"/>
+  <object id="11" gid="471" x="352" y="64" width="16" height="16"/>
+  <object id="16" gid="471" x="368" y="50" width="16" height="16"/>
+  <object id="17" gid="471" x="384" y="35" width="16" height="16"/>
+  <object id="18" gid="471" x="382" y="35" width="16" height="16"/>
+  <object id="19" gid="473" x="399" y="33" width="16" height="16"/>
+  <object id="20" gid="473" x="415" y="50" width="16" height="16"/>
+  <object id="21" gid="473" x="433" y="65" width="16" height="16"/>
+  <object id="22" gid="473" x="448" y="81" width="16" height="16"/>
+  <object id="23" gid="471" x="337" y="82" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup name="Street Lights" visible="0"/>
+</map>
